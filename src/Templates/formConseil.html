@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../Public/css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../../Public/css/form.css">
+    <title>Conseil de recette</title>
+</head>
+<body>
+    <nav class="MenuNavigation">
+        <ul>
+            <li class="nav-item">
+              <a class="nav-link active" href="../Templates/Accueil.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Templates/mesRecettes.html">Recettes</a>
+            </li>
+            <li>
+              <a class="nav-link" href="../Templates/parallax.html">Champagnes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Templates/listImagesRecettes.html">Photos Des Plats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Templates/formConseil.html">Idées Recettes</a>
+            </li>
+          </ul>
+          <button id="darkTrigger"><i class="fas fa-moon"></i></button>
+    </nav>
+    <div class="containerForm">
+        <main class="mainConseil">
+          <h1>Donnez vos recettes à partager!</h1>
+            <form action="" method="post">
+
+                <div class="formFirstname">
+                    <label class="firstN"  for="firstname">Prénom</label>
+                    <input type="text" name="firstNameUser" id="firstname">
+                </div>
+                <div class="formLastName">
+                    <label class="lastN" for="lastname">Nom</label>
+                    <input type="text" name="lastNameUser" id="lastname">
+                </div>
+
+                <div class="birthUser">
+                    <label class="birthDate" for="birhdate">Age</label>
+                    <input type="date" name="birthdateUser" id="birhdate">
+                </div>
+                <div class="vosIdees">
+                    <label class="vosRecettes" for="vosRecettes">Recettes</label>
+                    <textarea class="" name="ideeRecette" id="vosRecettes" cols="20" rows="10" placeholder="Donnez-moi vos idées de recettes!"></textarea>
+                </div>
+                <div class="sendRecette">
+                    <input class="submit" type="submit" name="send" value="Envoyez">
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer class="footerRecette">
+        <div class="card">
+            <div class="card-body">
+              <a href="../Templates/mesRecettes.html" class="btn btn-primary">Les recettes de DD</a>
+            </div>
+          </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../../Public/Js/modeSombre.js"></script>
+</body>
+</html>

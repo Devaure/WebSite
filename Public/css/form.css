@@ -1,0 +1,203 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+.MenuNavigation {
+    padding-top: 18px;
+    background-color: #E4EEF0;
+    background-color: #E4EEF0;
+    border-top: 1px solid rgb(151, 195, 231);
+    border-bottom: 1px solid rgb(151, 195, 231);
+}
+
+
+.MenuNavigation ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.MenuNavigation a {
+    text-decoration: none;
+    background-color: darkslategrey;
+    color: white;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.MenuNavigation a:hover {
+    background-color:rgb(69, 126, 177);
+    color:  white;
+    border: 1px solid rgb(69, 126, 177);
+    transition: .3s;
+}
+
+/*---------------------------------------------------------------------Mode sombre*/
+#darkTrigger {
+    position: relative;
+    left: 10px;
+    top: -40px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: darkslategrey;
+  }
+  .dark {
+    background-color: #112F41 !important;
+    color: #ffffff !important;
+  }
+  
+  .dark button {
+    background: #000000;
+    color: #fff;
+  }
+
+/*----------------------------------------------------Le formulaire*/
+.mainConseil h1{
+    font-size: 20px;
+    color: darkcyan;
+    text-align: center;
+    margin-top: 28px;
+}
+.formFirstname{
+    position: relative;
+    text-align: center;
+    margin-top: 45px;
+}
+.formFirstname input[type=text]{
+    border: 1px solid black;
+    border-radius:10px;
+    padding: 5px;
+}
+
+.formLastName{
+    position: relative;
+    text-align: center;
+}
+
+.formLastName input[type=text]{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 22px;
+    margin-left: 27px;
+}
+
+.birthUser{
+    position: relative;
+    text-align: center;
+}
+
+.birthUser input[type=date]{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 22px;
+    margin-left: 35px;
+    width: 214px;
+}
+
+.vosIdees{
+    position: relative;
+    text-align: center;
+}
+
+textarea{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 22px;
+    width: 214px;
+    height: 110px;
+    box-shadow: 1px 1px -1px black;
+    resize: none;
+}
+
+.sendRecette{
+    position: relative;
+    text-align: center;
+}
+
+.submit{
+    position: relative;
+    text-align: center;
+    margin-left: 84px;
+    top: 10px;
+    width: 229px;
+    height: 50px;
+    background-color: darkslategrey;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
+
+.submit:hover{
+    background-color:rgb(69, 126, 177);
+    color:  white;
+    border: 1px solid rgb(69, 126, 177);
+    transition: .3s;
+}
+
+/*--------------------------------------------label*/
+.firstN{
+    color: darkcyan;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.lastN{
+    color: darkcyan;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.birthDate{
+    color: darkcyan;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.vosRecettes{
+    position: relative;
+    top: -97px;
+    color: darkcyan;
+    font-weight: 600;
+}
+/*---------------------------------------------------Le footer */
+.card{
+    position: fixed;
+    bottom: 0px;
+    justify-content: center;
+    color: darkcyan;
+    background-color: #E4EEF0;
+    height: 61px;
+    width: 100%;
+    text-align: center;
+    background-color: #E4EEF0;
+    border-top: 1px solid rgb(151, 195, 231);
+    border-bottom: 1px solid rgb(151, 195, 231);
+}
+
+.card-body a{
+    
+    top: 16px;
+    position: absolute;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #2D5F69;
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
+    margin-left: -44px;
+}
+
+.card-body a:hover{
+    background-color: rgb(69, 126, 177);
+    color:white;
+    border: 1px solid rgb(69, 126, 177);
+    transition: .3s;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="../../Public/css/normalize.css">
+    <link rel="stylesheet" href="../../Public/css/acceuil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="../../Public/Js/modeSombre.js" defer></script>
+</head>
+<body>
+    <nav class="MenuNavigation">
+        <ul>
+            <li class="nav-item">
+              <a class="nav-link active" href="../Templates/Accueil.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Templates/mesRecettes.html">Recettes</a>
+            </li>
+            <li>
+                <a class="nav-link" href="../Templates/parallax.html">Champagnes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Templates/listImagesRecettes.html">Photos Des Plats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Templates/formConseil.html">Idées recettes</a>
+            </li>
+          </ul>
+          <button id="darkTrigger"><i class="fas fa-moon"></i></button>
+    </nav>
+    <main>
+        <div class="container">
+        <h1 class="titreAcceuil">Bienvenue sur la page d'accueil</h1>
+            <p>Je vais vous parler de ma passion pour la gastronomie</p>
+            <p>L'idée principale est tout d'abord de faire plaisir à mes invités et de les régaler</p>
+            <p>Pour réussir cela il y a une clé qui est de sélectionner les bons artisants, un bon boucher, poissonnier, boulanger etc..</p>
+            
+            <div id="boucher">
+                <h2 class="titreBoucher">Le boucher</h2>
+                <figure>
+                    <a href="https://maisonevrard.com/">
+                        <img class="imageBoucherie"  title="Voir le site" src="../../Public/Images/boucherie.jpg" alt="Boucherie de wazemmes" width="300" height="200">
+                    </a>
+                </figure>
+
+                <p>
+                    Ici vous pouvez voir la boucherie <strong>Evrard</strong> très réputée sur la place!
+                    Ils ont des pièces de viandes exceptionnelles.
+                </p>
+            </div>
+
+            <div id="poissonnier">
+                <h2 class="titrePoissonier">Le Poissonnier</h2>
+                <figure>
+                    <a href="https://au-petit-mousse.fr/">
+                        <img class="imagePoisonnerie" title="Voir le site" src="../../Public/Images/petitMousse.jpg" alt="Poissonerie de wazemmes" width="300" height="200">
+                    </a>
+                </figure>
+
+                <p>
+                    Ici vous pouvez voir la poissonnerie <strong>Le petit Mousse</strong> très réputée également sur la place!<br>
+                    Les produits sont assez variés, vous pouvez trouver votre bonheur, du crustacée, au poisson sauvage ou d'élevage!
+                </p>
+            </div>
+
+            <div id="boulanger">
+                <h2 class="titreBoulanger">Le Boulanger</h2>
+                <figure>
+                    <a href="https://www.avisdegourmets.com/lille/boulangerie/maison-doucet?utm_source=Google&utm_medium=Google%20my%20business&utm_campaign=Google%20my%20business%20Maison%20Doucet">
+                        <img class="imageBoulanger" title="Voir le site" src="../../Public/Images/doucetBoulangerie.jpg" alt="Boulangerie de wazemmes">
+                    </a>
+                </figure>
+
+                <p class="paragrapheDoucet">
+                    Ici vous pouvez voir la boulangerie <strong>Doucet</strong> très réputée également sur la place!<br>
+                    Les produits sont assez variés, vous pouvez trouver votre bonheur, du pains aux céréales, seigle, tradition, cap nord, des gateaux qui vous font saliver!
+                </p>
+            </div>
+            
+        </div>
+       
+    </main>
+
+    <footer class="footerRecette">
+        <div class="card">
+            <div class="card-body">
+              <a href="mesRecettes.html" class="btn btn-primary">Les recettes de DD</a>
+            </div>
+          </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</body>
+</html>

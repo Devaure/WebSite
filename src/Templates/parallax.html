@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../Public/css/normalize.css">
+    <link rel="stylesheet" href="../../Public/css/parallax.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="../../Public/Js/modeSombre.js" defer></script>
+    <script src="../../Public/Js/parallax.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Parallax</title>
+</head>
+<body>
+    <nav class="MenuNavigation">
+        <ul>
+            <li class="nav-item">
+              <a class="nav-link active" href="../Templates/Accueil.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Templates/mesRecettes.html">Recettes</a>
+            </li>
+            <li>
+                <a class="nav-link" href="../Templates/parallax.html">Champagnes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Templates/listImagesRecettes.html">Photos Des Plats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Templates/formConseil.html">Idées Recettes</a>
+            </li>
+          </ul>
+          <button id="darkTrigger"><i class="fas fa-moon"></i></button>
+    </nav>
+    <div class="main">
+        <h1 class="titreChampagne">Des Bulles Dans Notre Vie</h1>
+      
+        <div class="containerParallax"data-parallax="0.08">
+                <img class="imgOne" src="../../Public/Images/flutChampagne.png" width="200px" alt="image flut de champagne">
+                <img class="imgTwo" src="../../Public/Images/flutChampagne.png" width="200px" alt="image fult de champagne">
+        </div>
+
+        <div class="oneChamp" data-parallax="0.20">
+          <a href="https://www.ruinart.com/fr-e">
+            <img title="Voir le site" class="ruinart" src="../../Public/Images/ruinart.png" alt="Bouteille de champagne ruinart" width="100px">
+          </a>
+        </div>
+
+        <div class="twoChamp" data-parallax="-0.25">
+          <a href="https://www.veuveclicquot.com/fr-fr?gclid=Cj0KCQiA7oyNBhDiARIsADtGRZaA51tyOQDyfQx105xQmboJ7ZY1pJEdEIL2oEaNXHBThZwqz9Z9fwoaArJCEALw_wcB">
+            <img title="Voir le site" class="veuveCliquot" src="../../Public/Images/veuveCliquot.jpg" alt="Bouteille de champagne ruinart" width="100px">
+        </a>
+        </div>
+
+        <div class="threChamp" data-parallax="-0.15">
+          <a href="https://www.nicolas-feuillatte.com/fr/">
+            <img title="Voir le site"  class="feuillate" src="../../Public/Images/cuvee-speciale-millesime-2015.jpg" alt="Bouteille de champagne feuillate" width="100px">
+          </a>
+        </div>
+        <div class="forChamp">
+          <a href="https://www.louis-roederer.com/en">
+            <img title="Voir le site"  class="roederer" src="../../Public/Images/roederer.png" alt="Bouteille de champagne ruinart" width="100px">
+        </a>
+        </div>
+        <div class="fiveChamp" data-parallax="0.15">
+            <a href="https://www.champagne-ayala.fr/">
+            <img title="Voir le site"  class="ayala" src="../../Public/Images/champagne-ayala-brut-majeur.jpg" alt="Bouteille de champagne ayala" width="100px">
+            </a>
+          </div>
+    </div>
+   
+    <footer class="footerRecette">
+        <div class="card">
+            <div class="card-body">
+              <a href="mesRecettes.html" class="btn btn-primary">Les recettes de DD</a>
+            </div>
+          </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,176 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+.MenuNavigation{
+    padding-top: 18px;
+    background-color: #E4EEF0;
+    background-color: #E4EEF0;
+    border-top: 1px solid rgb(151, 195, 231);
+    border-bottom: 1px solid rgb(151, 195, 231);
+}
+
+
+.MenuNavigation ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.MenuNavigation a {
+    text-decoration: none;
+    background-color: darkslategrey;
+    color: white;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.MenuNavigation a:hover {
+    background-color:rgb(69, 126, 177);
+    color:  white;
+    border: 1px solid rgb(69, 126, 177);
+    transition: .3s;
+}
+/*-------------------------------------------------carousselle*/
+.containerListRecettes{
+  position: relative;
+  top: -30px;
+  height: 500px;
+  width: auto;
+}
+.containerListRecettes h1{
+  position: relative;
+  margin-top: 14px;
+  margin-bottom: 69px;
+  top: 30px;
+  left: 20px;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(69, 126, 177);
+}
+
+.images {
+    width: 100vw; /* largeur par rapport à la taille de la fenêtre*/
+    height: 200px;
+  }
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  .images {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 3vh;
+  }
+  
+  .images > img {
+    position: absolute;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 1px 1px -2px grey;
+    top: -44px;
+    left: calc(50% - 100px);
+    opacity: 0;
+    animation: display 10s infinite;
+  }
+  
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  img:nth-child(5) {
+    animation-delay: 8s;
+  }
+
+  img:nth-child(6) {
+    animation-delay: 10s;
+  }
+/*---------------------------------------------------------------------Mode sombre*/
+#darkTrigger {
+  position: relative;
+  left: 10px;
+  top: -40px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: darkslategrey;
+}
+
+#darkTrigger:hover{
+  background-color: rgb(69, 126, 177);;
+}
+
+.dark {
+  background-color: #112F41 !important;
+  color: #ffffff !important;
+}
+
+.dark button {
+  background: #000000;
+  color: #fff;
+}
+  /*---------------------------------------------------Le footer */
+.card{
+    position: fixed;
+    bottom: 0px;
+    justify-content: center;
+    color: darkcyan;
+    background-color: #E4EEF0;
+    height: 61px;
+    width: 100%;
+    text-align: center;
+    background-color: #E4EEF0;
+    border-top: 1px solid rgb(151, 195, 231);
+    border-bottom: 1px solid rgb(151, 195, 231);
+}
+
+.card-body a{
+    
+    top: 16px;
+    position: absolute;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #2D5F69;
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
+    margin-left: -44px;
+}
+
+.card-body a:hover{
+    background-color: rgb(69, 126, 177);
+    color:white;
+    border: 1px solid rgb(69, 126, 177);
+    transition: .3s;
+}

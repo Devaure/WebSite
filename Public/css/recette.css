@@ -1,0 +1,154 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+.MenuNavigation {
+    padding-top: 18px;
+    background-color: #E4EEF0;
+    background-color: #E4EEF0;
+    border-top: 1px solid rgb(151, 195, 231);
+    border-bottom: 1px solid rgb(151, 195, 231);
+}
+
+
+.MenuNavigation ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.MenuNavigation  a {
+    text-decoration: none;
+    background-color: darkslategrey;
+    color: white;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 5px;  
+}
+
+.MenuNavigation a:hover {
+    background-color:rgb(72, 163, 241);
+    color:  white;
+    border: 1px solid rgb(10, 69, 121);
+    transition: .3s;
+}
+
+/*---------------------------------------------------------------------Mode sombre*/
+#darkTrigger {
+    position: relative;
+    left: 10px;
+    top: -40px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: darkslategrey;
+  }
+  
+  .dark {
+    background-color: #112F41 !important;
+    color: #ffffff !important;
+  }
+  
+  .dark button {
+    background: #000000;
+    color: #fff;
+  }
+
+.Recette{
+    padding-bottom: 21px;
+    padding-top: 10px;
+    font-size: 23px;
+    text-align: center;
+    color: darkcyan;
+}
+/*---------------------------lien avec image */
+.blanquettePoisson a{
+    display: flex;
+    height: 100px;
+    width: 431px;
+    margin: auto;
+}
+
+.carbonnadeFlamande a{
+    display: flex;
+    margin-top: 230px !important;
+    width: 431px;
+    margin: auto;  
+}
+
+.blanquettePoisson h2 {
+    padding-left: 37px;
+    padding-bottom: 41px;
+    color: darkcyan;
+    font-size: 20px;
+}
+
+.carbonnadeFlamande h2 {
+    padding-left: 37px;
+    padding-bottom: 41px;
+    color: darkcyan;
+    font-size: 20px;
+    position: relative;
+    top: 223px;
+}
+
+.blanquettePoisson p, .carbonnadeFlamande p{
+    padding-left: 37px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.space {
+    height: 18px;
+    position: relative;
+    margin-top: 63px;
+}
+/*images */
+
+.imageBlanquette, .imageCaronnade {
+    position: relative;
+    top: -30px;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid rgb(192, 202, 247);
+    border-radius: 10px;
+    box-shadow: 0 4px 4px -2px rgb(192, 202, 247);
+    -moz-box-shadow: 0 4px 4px -2px rgb(192, 202, 247);
+    -webkit-box-shadow: 0 4px 4px -2px rgb(192, 202, 247);
+}
+
+/*---------------------------------------------------Le footer */
+
+.card{
+    position: fixed;
+    bottom: 0px;
+    justify-content: center;
+    color: darkcyan;
+    background-color: #E4EEF0;
+    height: 61px;
+    width: 100%;
+    text-align: center;
+    background-color: #E4EEF0;
+    border-top: 1px solid rgb(151, 195, 231);
+    border-bottom: 1px solid rgb(151, 195, 231);
+}
+
+.card-body a{  
+    top: 16px;
+    position: absolute;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #2D5F69;
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
+    margin-left: -44px;
+}
+
+.card-body a:hover{
+    background-color: rgb(69, 126, 177);
+    color:white;
+    border: 1px solid rgb(69, 126, 177);
+    transition: .3s;
+}
